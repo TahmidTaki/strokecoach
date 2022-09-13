@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Program</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="relative container mx-auto p-6">
+        <!-- flex container  -->
+        <div class="flex items-center justify-between">
+            <!-- logo  -->
+            <img src="files/logo/Strokecoach_Logo_RGB.png" class="w-40" alt="">
+
+            <div class="flex flex-col">
+                <!-- buttons  -->
+                <div class="hidden lg:flex justify-end">
+
+                    <a href="tel:+0011 1212 1111" class="p-2 px-4 mx-2 text-blued bg-tealed rounded-full baseline">
+                        <div class="flex">
+                            <img class="w-8 h-8 mr-2" src="files/icons/strokecoach_icon_telefon_blau.png" alt=""> <span
+                                class="pt-1">011-1212-1111</span>
+                        </div>
+                    </a>
+                    <a href="mailto: neurocoachdigitallab@iium.edu.my"
+                        class="p-2 px-4 mx-2 text-blued bg-tealed rounded-full baseline">
+                        <div class="flex">
+                            <img class="w-8 h-8 mr-2" src="files/icons/strokecoach_icon_mail.png" alt=""> <span
+                                class="pt-1">Make
+                                Contact</span>
+                        </div>
+                    </a>
+                    <a href="#" class="p-2 px-4 mx-2 text-blued bg-tealed rounded-full baseline">
+                        <div class="flex">
+                            <img class="w-8 h-8 mr-2" src="files/icons/strokecoach_icon_login_blau.png" alt=""> <span
+                                class="pt-1">Coaches Login</span>
+                        </div>
+                    </a>
+
+                </div>
+                <!-- menu items  -->
+                <div class="hidden lg:flex space-x-8 pt-6">
+                    <a href="index.html" class="underline underline-offset-1">Home Page</a>
+                    <a href="#" class="text-inherit hover:underline">Training Program</a>
+                    <a href="#" class="text-inherit hover:underline">Location</a>
+                    <a href="advanced-training.html" class="text-inherit hover:underline">Advanced Training</a>
+                    <a href="about-us.html" class="text-inherit hover:underline">About Us</a>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- The training program  -->
+    <div class="bg-tealedlight py-20">
+        <div class="pt-10 pl-8">
+            <h2 class="text-6xl font-black  mb-8 text-blued">The Training Program</h2>
+            <p class="text-xl mb-8 text-blued">With the Strokecoach training program, you train every day and achieve
+                your
+                goals. Here's what else happens:</p>
+        </div>
+        <div class="mx-auto">
+            <img src="files/patient_journey/patient-journey-roadmap.png" alt="">
+        </div>
+    </div>
+
+    <!-- make contact section  -->
+    <div class="flex justify-center py-28">
+        <div class="pt-10 pl-8 text-center">
+            <h2 class="text-6xl font-black  mb-8 text-blued">Here we go!</h2>
+            <p class="text-xl mb-8 text-blued">Would you also like to train with your personal stroke coach for a year,
+                celebrate success and improve your health? It is best to contact us directly. We will discuss the
+                program and answer your questions.</p>
+            <a href="#"
+                class="text-2xl text-center text-bold px-12 pt-4 pb-4 text-white bg-blued rounded-full w-64 hover:bg-white hover:text-blued hover:border-2 border-blued">Make
+                Contact</a>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="mt-8 bg-blued py-4 mb-32 lg:mb-0 text-white">
+            <div class="flex justify-between px-6">
+                <p class="text-xl">2022 Stroke Coach GmbH</p>
+                <div class="flex gap-3">
+                    <a href="#"><img src="files/icons/strokecoach_icon_facebook_white.png" alt=""></a>
+                    <a href="#"><img src="files/icons/strokecoach_icon_instagram_white.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- mobile view stocky footer  -->
+        <div
+            class="fixed bottom-0 left-0 z-20 p-4 pt-6 w-full bg-white border-t border-gray-200 shadow flex items-center justify-between dark:bg-gray-800 dark:border-gray-600 lg:hidden">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+                <div class="text-blued">
+                    <div class="flex flex-col">
+                        <p class="text-2xl pl-6"><a href="tel:+02405 807 49 15"><img
+                                    src="files/icons/strokecoach_icon_phone.png" class="h-10 w-10" alt=""></a>
+                        </p>
+                        <p class="text-xl font-bold pl-4"> Call Us</p>
+                    </div>
+
+                </div>
+            </span>
+            <div class="flex items-center">
+                <button class="outline-none mobile-menu-button">
+                    <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 " x-show="!showMenu" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden mobile-menu">
+                <ul class="">
+                    <li class="active"><a href="index.html" class="underline underline-offset-1">Home Page</a></li>
+                    <li><a href="#" class="text-inherit hover:underline">Training Program</a></li>
+                    <li><a href="#" class="text-inherit hover:underline">Location</a></li>
+                    <li><a href="advanced-training.html" class="text-inherit hover:underline">Advanced Training</a></li>
+                    <li><a href="about-us.html" class="text-inherit hover:underline">About Us</a></li>
+                </ul>
+            </div>
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+                <div class="text-blued">
+                    <div class="flex flex-col">
+                        <p class="text-2xl pl-8"><a href="mailto: neurocoachdigitallab@iium.edu.my"><img
+                                    src="files/icons/strokecoach_icon_mail.png" class="h-10 w-10" alt=""></a>
+                        </p>
+                        <p class="text-xl font-bold pl-4"> Contact</p>
+                    </div>
+
+                </div>
+            </span>
+
+
+
+        </div>
+
+    </footer>
+
+    <script>
+        const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+    </script>
+
+</body>
+
+</html>
