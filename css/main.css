@@ -1475,6 +1475,10 @@ video {
     padding-top: 6rem;
   }
 
+  .lg\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
   .lg\:text-center {
     text-align: center;
   }
